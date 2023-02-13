@@ -1,7 +1,6 @@
 {
   "name": "sequelize",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,15 @@
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.28.0",
     "sequelize-cli": "^6.6.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Granadman7777/sequelize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Granadman7777/sequelize/issues"
+  },
+  "homepage": "https://github.com/Granadman7777/sequelize#readme",
+  "description": ""
 }
