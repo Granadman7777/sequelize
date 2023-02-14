@@ -2,7 +2,7 @@ const {Router} = require('express');
 const UserController = require('../controllers/User.controller');
 const TaskController = require('../controllers/Task.controller');
 const {getUserInstance, validateUser} = require('../middlewares/user.mv');
-const {middlevares} = require('../middlewares/task.mv');
+const {validateTask} = require('../middlewares/task.mv');
 
 const router = Router();
 

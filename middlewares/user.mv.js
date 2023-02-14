@@ -1,5 +1,5 @@
 const {User} = require('../models');
-const yup = require('yup');
+const {USER_SCHEMA} = require('../schemas/user.schema');
 const UserError = require('../errors/User.error');
 
 module.exports.getUserInstance = async(req, res, next) => {
